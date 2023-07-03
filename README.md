@@ -20,12 +20,12 @@ This repository contains the hardware and software implementation of my learning
 This will publish the velocity commands at a rate of 1 Hz. The linear velocity is 2m/sec, in the x- direction. And the angular velocity is 1.5 rad/sec.
 
 ## Task B: Write a custom code to send the TurtleSim to the desired position.
-[Click here to view the file.py](./Solutions/file.py)
+[DesireD position](./Solutions/p1_B.py)
 
 ## Task D: Create a ROS package by your name without using the "catkin_create_pkg" command
 [Link to documentation](https://wiki.ros.org/ROS/Tutorials/Creating%20a%20Package%20by%20Hand)
 [CMakeLists.txt](./Solutions/p1_D_CMakeLists.txt)
-[pacakage.xml](./Solutions/p1_D_package.xml)
+[package.xml](./Solutions/p1_D_package.xml)
 
 
 
