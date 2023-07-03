@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<package format="2">
+    <name>ashutoshsahu</name>
+    <version>1.1.9</version>
+    <description>This is my first custom package</description>
+    <maintainer email="ashutoshsahu1018@gmail.com">Ashutosh Sahu</maintainer>
+    <license>MIT</license>
+
+    <url>https:www.github.com/ashuRMS</url>
+    <author>Ashutosh Sahu</author>
+
+    <!--Build tool dependencies-->
+    <buildtool_depend>catkin</buildtool_depend>
+
+
+    <!--Build dependencies-->
+    <build_depend>roscpp</build_depend>
+    <build_depend>std_msgs</build_depend>
+    <build_depend>rospy</build_depend>
+    <build_depend>message_generation</build_depend>
+
+    <!--Build Export dependencies-->
+    <build_export_depend>roscpp</build_export_depend>
+    <build_export_depend>rospy</build_export_depend>
+    <build_export_depend>std_msgs</build_export_depend>
+
+    <!--Execution dependencies-->
+    <exec_depend>message_runtime</exec_depend>
+    <exec_depend>rospy</exec_depend>
+    <exec_depend>std_msgs</exec_depend>
+    <exec_depend>roscpp</exec_depend>
+
+    <!--Test dependencies-->
+    <test_depend>python-mock</test_depend>
+
+
+    <!--Document tool dependencies-->
+    <doc_depend>doxygen</doc_depend>
+</package>
+
+
+
+
+
