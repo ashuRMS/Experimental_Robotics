@@ -22,6 +22,10 @@ This will publish the velocity commands at a rate of 1 Hz. The linear velocity i
 ## Task B: Write a custom code to send the TurtleSim to the desired position.
 [Desired position](./Solutions/p1_B.py)
 
+## Task C: Write a custom service and client node, where the client requests basic calculations from the server
+[Client](./Solutions/p1_client.py)
+[Server](./Solutions/p1_server.py)
+
 ## Task D: Create a ROS package by your name without using the "catkin_create_pkg" command
 [Link to documentation](https://wiki.ros.org/ROS/Tutorials/Creating%20a%20Package%20by%20Hand) <br>
 [CMakeLists.txt](./Solutions/p1_D_CMakeLists.txt) <br>
