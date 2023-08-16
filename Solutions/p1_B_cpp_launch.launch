@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<launch>
+    <node pkg="beginner_tutorials" type="gotogoalTurtle" name="turtle_Controller_cpp" output="screen">
+        
+    </node>
+    <node pkg="turtlesim" type="turtlesim_node" name="turtlesim_node" >
+        
+    </node>  
+
+</launch>
