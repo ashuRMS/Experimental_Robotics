@@ -20,7 +20,8 @@ This repository contains the hardware and software implementation of my learning
 This will publish the velocity commands at a rate of 1 Hz. The linear velocity is 2m/sec, in the x- direction. And the angular velocity is 1.5 rad/sec.
 
 ## Task B: Write a custom code to send the TurtleSim to the desired position.
-[Desired position](./Solutions/p1_B.py)
+[Desired position (python)](./Solutions/p1_B.py)
+[Desired position (cpp)](./Solutions/p1_B.cpp)
 
 ## Task C: Write a custom service and client node, where the client requests basic calculations from the server
 [Client](./Solutions/p1_C_client.py) <br>
