@@ -22,7 +22,8 @@ This will publish the velocity commands at a rate of 1 Hz. The linear velocity i
 ## Task B: Write a custom code to send the TurtleSim to the desired position.
 [Desired position (python)](./Solutions/p1_B.py) 
 [Desired position (cpp)](./Solutions/p1_B.cpp) <br>
-![TurtleSim](./TurtleSIm.png)
+![TurtleSim](./TurtleSIm.png) <br>
+[Video Demo](https://youtu.be/HcosdPP8wzU) <br>
 
 ## Task C: Write a custom service and client node, where the client requests basic calculations from the server
 [Client](./Solutions/p1_C_client.py) <br>
