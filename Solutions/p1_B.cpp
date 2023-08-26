@@ -163,7 +163,9 @@ int main(int argc, char** argv) {
     
 
     try{
+        
         ros::NodeHandle nh;
+        ros::Duration().sleep();   // sleeps for duration of 1/rate Sec
         TurtleController turtle(argc,argv);
         std::cout << "************************************************************" << std::endl;
         turtle.going_to_goal(x,y);
