@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# RIGHT CODE
 import rospy
 from geometry_msgs.msg import Twist
 from turtlesim.msg import Pose
@@ -21,13 +22,15 @@ class go_to_goal:
         # Create pose object
         self.pose=Pose()                                       
         self.rate =rospy.Rate(50)
-    
-    def update_pose(self,data):
-        self.pose=data
-        # The data parameter is already being passed in the subscriber object. This is the pecuilarity of ROS framework
-        # Update the pose
-        self.pose.x=self.pose.x
-        self.pose.y=self.pose.y
+        
+    def update_pose(self, data):
+        # Update the pose from the received data DATA RECEIVED CORRECTLY
+        # print("Received pose data:", data)
+        self.pose.x = data.x
+        self.pose.y = data.y
+        self.pose.theta = data.theta  
+        # print("Updated self.pose:", self.pose)
+        
     
     def euclidean_distance(self,goal_pose):
         # Calculate the euclidean distance between desired and current position
@@ -69,14 +72,11 @@ class go_to_goal:
         # Tolerance
         error=0.001
 
-        # Initial position
-        self.pose.x=5.5444
-        self.pose.y=5.5444
-
         # Create Twist Object
-        vel_msg=Twist()   
-
-        # Move until the end                                      
+        vel_msg=Twist() 
+ 
+        # Move until the end   
+        rospy.sleep(1.0)                                   
         while self.euclidean_distance(goal_pose)>=error:
             vel_msg.linear.x = self.linear_vel(goal_pose,1.5)
             vel_msg.linear.y = 0
