@@ -59,7 +59,7 @@ Learn how to create a ROS package manually, without using the "catkin_create_pkg
 This section showcases both software and hardware experiments conducted using the TurtleBot3 Waffle Pi model.
 <p align="center">
   <img src="./Turtlebot3.jpg" alt="ITurtlebot 3 Waffle Pi" width="45%" />
-  <img src="./turtlebot3_dimesnions3.png" alt="Turtlebot 3 dimensions" width="45%" />
+  <img src="./turtlebot3_dimensions3.png" alt="Turtlebot 3 dimensions" width="45%" />
 </p>
 
 
