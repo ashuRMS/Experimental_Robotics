@@ -37,7 +37,7 @@ To move TurtleSim to a desired position, a custom code is provided. See the solu
 - [Desired Position (Python)](./Solutions/p1_B.py)
 - [Desired Position (C++)](./Solutions/p1_B.cpp)
 
-[![TurtleSim](./TurtleSIm.png)](https://youtu.be/HcosdPP8wzU)
+[![TurtleSim](./TurtleSIm.png)](https://youtu.be/HcosdPP8wzU) </br>
 [Video Demo](https://youtu.be/HcosdPP8wzU)
 
 ### Task C: Custom Service and Client Nodes
@@ -56,6 +56,10 @@ Learn how to create a ROS package manually, without using the "catkin_create_pkg
 - [package.xml](./Solutions/p1_D_package.xml)
 
 ## Control of TurtleBot3
+This section showcases both software and hardware experiments conducted using the TurtleBot3 Waffle Pi model.
 
 ### Task A: Turtlebot3 go to goal behaviour
+- [Desired Position Turtlebot3 (Python)](./Solutions/p2_A.py)
+- [Gazebo Demo](https://youtu.be/yXdrSMCH6bc?si=o5aFc6ktw7Vzj2j9)
+- [Harware demo](https://youtu.be/3eyBTtrQq4s?si=pv40xWlaliROBVCU)
 
