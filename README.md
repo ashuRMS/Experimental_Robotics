@@ -64,8 +64,30 @@ This section showcases both software and hardware experiments conducted using th
 
 
 ### Task A: Turtlebot3 go to goal behaviour
+Proportional control is employed to navigate the TurtleBot to the target destination. The error function determines the Euclidean distance between the current and desired positions. This calculation is then utilized to generate commands for linear velocity, while the heading error generates commands for angular velocity.
+
 - [Desired Position Turtlebot3 (Python)](./Solutions/p2_A.py)
 - [Gazebo Demo](https://youtu.be/yXdrSMCH6bc?si=o5aFc6ktw7Vzj2j9)
-- [Harware demo](https://youtu.be/3eyBTtrQq4s?si=pv40xWlaliROBVCU)
+- [Hardware demo](https://youtu.be/3eyBTtrQq4s?si=pv40xWlaliROBVCU)
+
+### Task B: Create a map of Robotocs Lab using SLAM.
+The SLAM (Simultaneous Localization and Mapping) is a technique to draw a map by estimating the current location in an arbitrary space. The SLAM is a well-known feature of TurtleBot from its predecessors. The video here shows you how accurately TurtleBot3 can draw a map with its compact and affordable platform.
+
+- [Hardware demo](https://youtu.be/9RfMekVuCm8?si=XXrijLtRvkNQkLUH)
+
+### Task C: Navigate in the custom map.
+Navigation is to move the robot from one location to the specified destination in a given environment. For this purpose, a map that contains geometry information of furniture, objects, and walls of the given environment is required. As described in the previous SLAM section, the map was created with the distance information obtained by the sensor and the pose information of the robot itself.
+
+- [Hardware demo](https://youtu.be/9RfMekVuCm8?si=xEIV6hARk5CFWpOC)
+
+### Task D: Navigate in the custom map and teleoperate fake node.
+
+- [Gazebo Demo](https://youtu.be/yXdrSMCH6bc?si=o5aFc6ktw7Vzj2j9)
+- [Navigation and Fake Node demo](https://youtu.be/OcAFxgH_zMk?si=cJmfw1OG8GhyXTCp)
+
+  
+
+
+
 
 
