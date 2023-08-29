@@ -37,8 +37,8 @@ To move TurtleSim to a desired position, a custom code is provided. See the solu
 - [Desired Position (Python)](./Solutions/p1_B.py)
 - [Desired Position (C++)](./Solutions/p1_B.cpp)
 
-[![TurtleSim](./TurtleSIm.png)](https://youtu.be/HcosdPP8wzU) </br>
-[!Video Demo](https://youtu.be/HcosdPP8wzU)
+[![TurtleSim](./TurtleSIm.png)]</br>
+[![Video Demo](https://youtu.be/HcosdPP8wzU)]
 
 ### Task C: Custom Service and Client Nodes
 
@@ -73,6 +73,7 @@ Proportional control is employed to navigate the TurtleBot to the target destina
 ### Task B: Create a map of Robotocs Lab using SLAM.
 The SLAM (Simultaneous Localization and Mapping) is a technique to draw a map by estimating the current location in an arbitrary space. The SLAM is a well-known feature of TurtleBot from its predecessors. The video here shows you how accurately TurtleBot3 can draw a map with its compact and affordable platform.
 
+- [![Robotics Lab](./Roboticslab.png)] <br/>
 - [Hardware demo](https://youtu.be/9RfMekVuCm8?si=XXrijLtRvkNQkLUH)
 
 ### Task C: Navigate in the custom map.
@@ -82,6 +83,7 @@ Navigation is to move the robot from one location to the specified destination i
 
 ### Task D: Navigate in the custom map and teleoperate fake node.
 
+- [World](./World.png) <br/>
 - [Gazebo Demo](https://youtu.be/yXdrSMCH6bc?si=o5aFc6ktw7Vzj2j9)
 - [Navigation and Fake Node demo](https://youtu.be/OcAFxgH_zMk?si=cJmfw1OG8GhyXTCp)
 
