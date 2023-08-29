@@ -56,36 +56,43 @@ Learn how to create a ROS package manually, without using the "catkin_create_pkg
 - [package.xml](./Solutions/p1_D_package.xml)
 
 ## Control of TurtleBot3
-This section showcases both software and hardware experiments conducted using the TurtleBot3 Waffle Pi model.
-<p align="center">
-  <img src="./Turtlebot3.jpg" alt="ITurtlebot 3 Waffle Pi" width="45%" />
-  <img src="./turtlebot3_dimension3.png" alt="Turtlebot 3 dimensions" width="45%" />
-</p>
 
+This section highlights a combination of software and hardware experiments executed using the TurtleBot3 Waffle Pi model.
 
-### Task A: Turtlebot3 go to goal behaviour
-Proportional control is employed to navigate the TurtleBot to the target destination. The error function determines the Euclidean distance between the current and desired positions. This calculation is then utilized to generate commands for linear velocity, while the heading error generates commands for angular velocity.
+<div align="center">
+  <img src="./Turtlebot3.jpg" alt="TurtleBot 3 Waffle Pi" width="45%" />
+  <img src="./turtlebot3_dimension3.png" alt="TurtleBot 3 Dimensions" width="45%" />
+</div>
 
-- [Desired Position Turtlebot3 (Python)](./Solutions/p2_A.py)
-- [Gazebo Demo](https://youtu.be/yXdrSMCH6bc?si=o5aFc6ktw7Vzj2j9)
-- [Hardware demo](https://youtu.be/3eyBTtrQq4s?si=pv40xWlaliROBVCU)
+### Task A: Navigating TurtleBot3 using Proportional Control
 
-### Task B: Create a map of Robotocs Lab using SLAM.
-The SLAM (Simultaneous Localization and Mapping) is a technique to draw a map by estimating the current location in an arbitrary space. The SLAM is a well-known feature of TurtleBot from its predecessors. The video here shows you how accurately TurtleBot3 can draw a map with its compact and affordable platform.
+This task employs proportional control to guide the TurtleBot to a designated destination. The error function computes the Euclidean distance between the current and target positions, serving as the foundation for generating linear velocity commands. Simultaneously, heading error calculates angular velocity commands.
 
-![Robotics Lab](./Roboticslab.png)</br>
-- [Hardware demo](https://youtu.be/9RfMekVuCm8?si=XXrijLtRvkNQkLUH)
+- [Python Code: TurtleBot3 Desired Position](./Solutions/p2_A.py)
+- [Gazebo Demonstration](https://youtu.be/yXdrSMCH6bc?si=o5aFc6ktw7Vzj2j9)
+- [Hardware Demonstration](https://youtu.be/3eyBTtrQq4s?si=pv40xWlaliROBVCU)
 
-### Task C: Navigate in the custom map.
-Navigation is to move the robot from one location to the specified destination in a given environment. For this purpose, a map that contains geometry information of furniture, objects, and walls of the given environment is required. As described in the previous SLAM section, the map was created with the distance information obtained by the sensor and the pose information of the robot itself.
+### Task B: Creating a Robotics Lab Map using SLAM
 
-- [Hardware demo](https://youtu.be/9RfMekVuCm8?si=xEIV6hARk5CFWpOC)
+This task introduces SLAM (Simultaneous Localization and Mapping), a technique that constructs maps by estimating current locations in a given space. TurtleBot3's proficiency in SLAM is showcased as it accurately maps a compact and cost-effective platform.
 
-### Task D: Navigate in the custom map and teleoperate fake node.
+![Robotics Lab Map](./Roboticslab.png)
 
-![World](./World.png)</br>
-- [Gazebo Demo](https://youtu.be/yXdrSMCH6bc?si=o5aFc6ktw7Vzj2j9)
-- [Navigation and Fake Node demo](https://youtu.be/OcAFxgH_zMk?si=cJmfw1OG8GhyXTCp)
+- [Hardware Demonstration](https://youtu.be/9RfMekVuCm8?si=XXrijLtRvkNQkLUH)
+
+### Task C: Navigating within a Custom Map
+
+Navigation involves moving the robot from one point to another in a designated environment. Achieving this requires a map containing spatial information about furniture, objects, and walls. The map is generated through SLAM, utilizing sensor distance data and robot pose information.
+
+- [Hardware Demonstration](https://youtu.be/9RfMekVuCm8?si=xEIV6hARk5CFWpOC)
+
+### Task D: Navigating within a Custom Map and Teleoperating a Simulated Node
+
+![World Map](./World.png)
+
+- [Gazebo Demonstration](https://youtu.be/yXdrSMCH6bc?si=o5aFc6ktw7Vzj2j9)
+- [Navigation and Fake Node Demonstration](https://youtu.be/OcAFxgH_zMk?si=cJmfw1OG8GhyXTCp)
+
 
   
 
