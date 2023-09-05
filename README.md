@@ -38,6 +38,11 @@ To move TurtleSim to a desired position, a custom code is provided. See the solu
 - [Desired Position (C++)](./Solutions/p1_B.cpp)
 
 ![TurtleSim](./TurtleSIm.png)</br>
+
+
+https://github.com/ashuRMS/Experimental_Robotics/assets/110385580/4a0b33af-8d3f-4b95-a47e-4559094fc002
+
+
 [Video Demo](https://youtu.be/HcosdPP8wzU)
 
 ### Task C: Custom Service and Client Nodes
@@ -71,6 +76,12 @@ This task employs proportional control to guide the TurtleBot to a designated de
 - [Python Code: TurtleBot3 Desired Position](./Solutions/p2_A.py)
 - [Gazebo Demonstration](https://youtu.be/yXdrSMCH6bc?si=o5aFc6ktw7Vzj2j9)
 - [Hardware Demonstration](https://youtu.be/3eyBTtrQq4s?si=pv40xWlaliROBVCU)
+
+  
+
+
+https://github.com/ashuRMS/Experimental_Robotics/assets/110385580/b19b8b9a-7672-46c4-a43b-89dd61695579
+
 
 ### Task B: Creating a Robotics Lab Map using SLAM
 
