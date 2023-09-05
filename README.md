@@ -129,5 +129,13 @@ Navigation involves moving the robot from one point to another in a designated e
 
    The first command configures the USB rules for your device, and the second command displays the current USB latency timer value for `ttyUSB0`.
 
- 
+
+5. Move the manipulator using keyboard teleoperation
+   
+ ```bash
+ $ roslaunch open_manipulator_teleop open_manipulator_teleop_keyboard.launch
+ ```
+
+https://github.com/ashuRMS/Experimental_Robotics/assets/110385580/4624630d-ed5d-4fae-86ab-e76d324997d7
+
 
