@@ -150,3 +150,12 @@ Navigation involves moving the robot from one point to another in a designated e
 https://github.com/ashuRMS/Experimental_Robotics/assets/110385580/4624630d-ed5d-4fae-86ab-e76d324997d7
 
 
+### Objective - 2: Control of Robot using GUI
+
+The robot was controlles by a GUI program to draw 3 different shapes .
+
+https://github.com/ashuRMS/Experimental_Robotics/assets/110385580/1c15f989-f825-4436-bccd-dd07dd10aae2
+
+![Final Drawings](https://github.com/ashuRMS/Experimental_Robotics/assets/110385580/c65977c3-acec-4f91-8bf5-fba3fcc7ca80)
+
+
