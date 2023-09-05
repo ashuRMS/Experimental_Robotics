@@ -95,8 +95,39 @@ Navigation involves moving the robot from one point to another in a designated e
 
 
   
+## Control of OpenManipulator-X
+
+
+![OpenManipulator_Introduction](https://github.com/ashuRMS/Experimental_Robotics/assets/110385580/e3940929-6d45-4a09-8caa-efb0366e4af2)
+
+- OpenMANIPULATOR-X is based on ROS ​and OpenSource. ROS official hardware platform, TurtleBot series has been supporting “TurtleBot Arm”. The OpenMANIPULATOR-X has full hardware compatibility with TurtleBot3​. Users can also control it more easily by adopting the MoveIt! package. Even if you do not have an actual robot, you can control the robot in the Gazebo simulator​.
+
+### Objective - 1: Connecting the Robot with a computer using U2D2 and Learning basic operations on the Robot using existing packages
+
+- In the Linux(Ubuntu platform) environment, USB latency time is set to 16ms by default. Follow the steps below to set the communication latency time to the lowest value (1ms) between DYNAMIXELs and PCs connected via USB.
+
+1. Open a terminal window.
+
+2. Run the ROS core with the following command:
+
+    ```bash
+    $ roscore
+    ```
+
+   This command initializes the ROS master, which is essential for ROS communication.
 
 
 
+3. Open a new terminal window.
 
+4. To change the USB latency to 1 ms, use the following commands:
+
+    ```bash
+    $ rosrun open_manipulator_controller create_udev_rules
+    $ cat /sys/bus/usb-serial/devices/ttyUSB0/latency_timer
+    ```
+
+   The first command configures the USB rules for your device, and the second command displays the current USB latency timer value for `ttyUSB0`.
+
+ 
 
