@@ -78,8 +78,6 @@ This task employs proportional control to guide the TurtleBot to a designated de
 - [Hardware Demonstration](https://youtu.be/3eyBTtrQq4s?si=pv40xWlaliROBVCU)
 
   
-
-
 https://github.com/ashuRMS/Experimental_Robotics/assets/110385580/b19b8b9a-7672-46c4-a43b-89dd61695579
 
 
@@ -107,7 +105,7 @@ Navigation involves moving the robot from one point to another in a designated e
 
   
 ## Control of OpenManipulator-X
-
+- [Documentation](https://emanual.robotis.com/docs/en/platform/openmanipulator_x/)
 
 ![OpenManipulator_Introduction](https://github.com/ashuRMS/Experimental_Robotics/assets/110385580/e3940929-6d45-4a09-8caa-efb0366e4af2)
 
@@ -156,6 +154,19 @@ The robot was controlles by a GUI program to draw 3 different shapes .
 
 https://github.com/ashuRMS/Experimental_Robotics/assets/110385580/1c15f989-f825-4436-bccd-dd07dd10aae2
 
-![Final Drawings](https://github.com/ashuRMS/Experimental_Robotics/assets/110385580/c65977c3-acec-4f91-8bf5-fba3fcc7ca80)
+- ![Final Drawings](https://github.com/ashuRMS/Experimental_Robotics/assets/110385580/c65977c3-acec-4f91-8bf5-fba3fcc7ca80)
+
+
+### Objective - 3: Connecting the Robot with a computer using U2D2 and Learning basic operations on the Robot using existing packages
+
+- In this example, if the user is holding the master OpenMANIPULATOR, the slave OpenMANIPULATOR-X moves like master robot. Recording mode allows you to save the trajectory as you move the master OpenMANIPULATOR-X and play it back to the slave OpenMANIPULATOR
+  
+-![OpenManipulator_master_slave_connection](https://github.com/ashuRMS/Experimental_Robotics/assets/110385580/d4651a02-bd8f-40c7-9899-402723e52334)
+
+-![OpenManipulator_master_slave](https://github.com/ashuRMS/Experimental_Robotics/assets/110385580/7b63f6d1-de11-4d7b-8717-ef855d10edeb)
+
+
+
+https://github.com/ashuRMS/Experimental_Robotics/assets/110385580/0dcddaea-9be4-4ca0-8875-4f134563e6d5
 
 
