@@ -27,7 +27,7 @@ class JointPositionControlNode:
         # Subscribe to the "Joint_position" topic with message type Joint_position  --fk
         rospy.Subscriber("Joint_position", Joint_position, self.callback)
 
-        # Subscribe to the "Output_joint_positions" topic with message type Joint_position  --fk
+        # Subscribe to the "Output_joint_positions" topic with message type Joint_position  --ik
         #rospy.Subscriber("Joint_position", Output_joint_positions, self.callback)
 
     # Callback function that gets executed when a joint position message is received
